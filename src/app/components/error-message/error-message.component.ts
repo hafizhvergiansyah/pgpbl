@@ -1,5 +1,7 @@
-import { Component, Input,  OnInit } from '@angular/core';
-import { AbstractControl, FormGroup } from '@angular/forms';
+import { Component, Input, OnInit } from '@angular/core';
+import { FormGroup, AbstractControl } from '@angular/forms';
+
+
 
 @Component({
   selector: 'app-error-message',
@@ -13,6 +15,7 @@ export class ErrorMessageComponent  implements OnInit {
   @Input() error: string= '';
   
 
+
   constructor() { }
 
   ngOnInit() {}
@@ -20,6 +23,5 @@ export class ErrorMessageComponent  implements OnInit {
   shouldShowComponent(): boolean {
     return this.field?.touched && this.field?.errors?.[this.error];
   }
-  
 
 }
