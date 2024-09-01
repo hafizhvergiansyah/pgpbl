@@ -1,11 +1,11 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: "AIzaSyDm6lzU6a5aSHgtZkX5VnRVe91lAryIgbc",
-    authDomain: "reciclica-432a8.firebaseapp.com",
-    projectId: "reciclica-432a8",
-    storageBucket: "reciclica-432a8.appspot.com",
-    messagingSenderId: "778534070188",
-    appId: "1:778534070188:web:7b0b2de89e7f1163fdbc09"
+    apiKey: "AIzaSyBrOMfn-1tz29XjL1eJX4R2sBAHq8yT0Tk",
+  authDomain: "reclicica-app.firebaseapp.com",
+  projectId: "reclicica-app",
+  storageBucket: "reclicica-app.appspot.com",
+  messagingSenderId: "958083529645",
+  appId: "1:958083529645:web:63954e4192848035a83f24"
   }
 };
