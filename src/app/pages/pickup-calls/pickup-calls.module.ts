@@ -8,8 +8,7 @@ import { PickupCallsPageRoutingModule } from './pickup-calls-routing.module';
 
 import { PickupCallsPage } from './pickup-calls.page';
 import { PickupCallCardComponent } from 'src/app/components/pickup-call-card/pickup-call-card.component';
-import { SharedModule } from 'src/app/shared.module';
-
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({

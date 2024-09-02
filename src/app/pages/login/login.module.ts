@@ -19,7 +19,6 @@ import { ErrorMessageComponent } from 'src/app/components/error-message/error-me
   ],
   declarations: [
     LoginPage,
-    ErrorMessageComponent
-  ]
+  ErrorMessageComponent]
 })
 export class LoginPageModule {}

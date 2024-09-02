@@ -1,9 +1,7 @@
 <ion-header>
   <ion-toolbar color="tertiary">
     <ion-buttons slot="start">
-     <ion-menu-button>
-
-     </ion-menu-button>
+      <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>Reciclica</ion-title>
   </ion-toolbar>
@@ -16,8 +14,8 @@
         <img src="https://www.lamudi.co.id/journal/wp-content/uploads/2023/11/model-rumah-kontrakan-2-pintu-6.jpg"/>
       </ion-avatar>
       <ion-label>
-        <h1>Kontrakan Jogja</h1>
-        <p>Price: <span class="money">Rp60.000.000</span></p>
+        <h1>Hafizh</h1>
+        <p>Gathered: <span class="money">$ 1000,00</span></p>
       </ion-label>
     </ion-item>
   </ion-list>
@@ -29,8 +27,9 @@
     <ion-button color="tertiary" fill="clear" size="full" footer (click)="goToPickupCalls()">See all...</ion-button>
   </app-pickup-call-card>
 
+
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button color="tertiary" (click)="goToPickupCall()">
+    <ion-fab-button color="tertiary" (click)="newPickupCall()">
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>

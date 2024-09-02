@@ -13,7 +13,7 @@ export class RegisterPage implements OnInit {
   ngOnInit() {
   }
 
-  register() {
+  register(){
     this.router.navigate(['home']);
   }
 
