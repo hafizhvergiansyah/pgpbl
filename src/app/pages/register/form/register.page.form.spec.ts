@@ -57,7 +57,7 @@ describe('RegisterPageForm', () => {
     expect(form.get('email')?.valid).toBeFalsy();
   });
 
-  it('should password less than 7 characters be invalid', () => {
+  it('should password less than 6 characters be invalid', () => {
     form.get('password')?.setValue('123456');
 
     expect(form.get('password')?.valid).toBeFalsy();

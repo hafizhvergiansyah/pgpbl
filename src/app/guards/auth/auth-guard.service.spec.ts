@@ -26,7 +26,7 @@ describe('AuthGuard', () => {
     router = TestBed.inject(Router);
   });
 
-  it('should allaw logged user to access page', () => {
+  it('should allow logged user to access page', () => {
     store.dispatch(loginSuccess({ user: new User() }));
 
     guard.canLoad().subscribe(isAllowed => {
